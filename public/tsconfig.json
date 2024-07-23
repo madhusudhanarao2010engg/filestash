@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noUncheckedIndexedAccess": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strict": false,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es2022"
+        ],
+        "module": "es2022",
+        "target": "es2022",
+        "typeRoots": []
+    },
+    "include": [
+        "assets/boot/*.js",
+        "assets/pages/*.js",
+        "global.d.ts"
+    ],
+    "exclude": [
+        "**/*.test.js",
+        "assets/worker/sw_cache.js",
+        "coverage",
+        "vite.config.js",
+        "jest.setup.js"
+    ]
+}
